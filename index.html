@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Emergency Service</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="flexsb">
+            <div class="flex" style="gap: 5px;">
+                <img class="logo" src="assets/logo.png" alt="">
+                <h2>Emergency <br> Service</h2>
+            </div>
+            <div class="navbar fmobile">
+                <p class="countButton"><span id="loveCount">0</span> <i class="fa-solid fa-heart"></i></p>
+                <p class="countButton"><span id="goldCount">100</span> <i class="fa-solid fa-coins"></i></p>
+                <p style="background-color: rgba(0, 166, 62, 1); color: white;" class="countButton"><span id="copyCount">0</span> Copy
+                </p>
+            </div>
+        </nav>
+        <div class="banner">
+            <img style="max-width: 90px; max-height: 90px;" src="assets/logo-dark.png" alt="">
+            <h2>Emergency Service Directory</h2>
+            <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+                Bangladesh</p>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+
+    <main class="main">
+
+        <!-- Card Container -->
+
+        <div class="cardContainer">
+
+            <!-- Card 1 -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/emergency.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">National Emergency Number</h5>
+                    <p class="cardDescription">National Emergency</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">999</h1>
+                    <p class="details">All</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+
+            <!-- Card 2  -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/police.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">Police Helpline Number</h5>
+                    <p class="cardDescription">Police</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">909</h1>
+                    <p class="details">Police</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+
+            <!-- Card 3  -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/fire-service.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">Fire Service Number</h5>
+                    <p class="cardDescription">Fire Service</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">999</h1>
+                    <p class="details">Fire</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+
+            <!-- Card 4  -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/ambulance.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">Ambulance Service</h5>
+                    <p class="cardDescription">Ambulance</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">1990</h1>
+                    <p class="details">Health</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+
+            <!-- Card 5  -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/emergency.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">Woman & Child Helpline</h5>
+                    <p class="cardDescription">Woman & Child Helpline</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">109</h1>
+                    <p class="details">Help</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+
+            <!-- Card 6  -->
+
+            <div class="card">
+                <div class="flexsb">
+                    <div class="cardIconContainer">
+                        <img class="cardIcon" src="assets/emergency.png" alt="">
+                    </div>
+                    <i class="fa-regular fa-heart heart" style="color: rgb(80, 30, 78);"></i>
+                </div>
+                <div>
+                    <h5 class="cardTitle">Anti-Corruption Helpline</h5>
+                    <p class="cardDescription">Anti-Corruption</p>
+                </div>
+                <div style="margin: 24px 0px;">
+                    <h1 style="margin: 0;">106</h1>
+                    <p class="details">Govt.</p>
+                </div>
+                <div class="cardButtonContainer">
+                    <button class="cardButton copyB"><i class="fa-regular fa-copy"
+                            style="color: rgb(80, 30, 78);"></i>Copy</button>
+                    <button style="background-color: rgba(0, 166, 62, 1);" class="cardButton callB"><i
+                            class="fa-thin fa-phone" style="color: rgb(80, 30, 78);"></i>Call</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call History Part  -->
+
+        <div class="historyContainer">
+            <div class="flexsb">
+                <h4><i class="fa-solid fa-clock-rotate-left" style="color: rgb(80, 30, 78); margin-right: 8px;"></i>Call
+                    History</h4>
+                <button style="background-color: rgba(0, 166, 62, 1); color: white; font-weight: bold;" id="clearB" class="countButton">Clear</button>
+            </div>
+
+            <!-- History Cards -->
+
+            <div id="clearable">
+                <!-- <div class="historyCard">
+                    <div class="name">
+                        <h4 class="historyTitle">Fire Service Number</h4>
+                        <p class="cardDescription">999</p>
+                    </div>
+                    <p>11:36:58 AM</p>
+                </div> -->
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/index.js"></script>
 </body>
+
 </html>
