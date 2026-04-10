@@ -1,6 +1,7 @@
 body {
     max-width: 1920px;
     margin: auto;
+    font-family: 'Hind Madurai';
 }
 
 nav {
@@ -51,6 +52,7 @@ nav {
 }
 
 .banner h2 {
+    font-family: 'Hind Madurai';
     color: white;
     font-weight: bold;
     font-size: 40px;
@@ -58,6 +60,7 @@ nav {
 }
 
 .banner p {
+    font-family: 'Hind Madurai';
     color: white;
     font: 600;
     font-size: 20px;
