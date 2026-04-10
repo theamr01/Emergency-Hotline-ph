@@ -7,7 +7,8 @@ nav {
     padding: 0 60px;
     max-height: 100px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -49,13 +50,14 @@ nav {
     padding: 12px 60px;
 }
 
-.banner h2{
+.banner h2 {
     color: white;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 0;
 }
-.banner p{
+
+.banner p {
     color: white;
     font: 600;
     font-size: 20px;
@@ -94,6 +96,10 @@ nav {
     max-width: 30px;
 }
 
+.heart {
+    cursor: pointer;
+}
+
 .cardIconContainer {
     height: 60px;
     width: 60px;
@@ -130,8 +136,10 @@ nav {
     flex: 1;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
-.callB{
+
+.callB {
     color: white;
     font-weight: bold;
 }
@@ -175,52 +183,79 @@ nav {
     line-height: 100%;
 }
 
+#clearB:hover {
+    transform: scale(1.1);
+    transition: .3;
+}
+
+.cardButton:hover {
+    transform: scale(1.1);
+    transition: .3;
+}
+
+#clearB {
+    cursor: pointer;
+    background-color: rgba(0, 166, 62, 1);
+    color: white;
+    font-weight: bold;
+}
+
 
 
 @media (max-width: 600px) {
-    body{
+    body {
         width: 100%;
         margin: 0;
         padding: 0;
     }
+
     nav {
         flex-direction: column;
         padding: 15px;
         gap: 0;
         max-height: none;
     }
-    nav h2{
+
+    nav h2 {
         line-height: 100%;
     }
-    nav .flex{
+
+    nav .flex {
         padding-bottom: 0;
     }
-    .navbar{
+
+    .navbar {
         gap: 10px;
         padding-top: 0;
         margin-top: 0;
     }
-    .navbar p{
+
+    .navbar p {
         text-align: center;
     }
-    .banner{
+
+    .banner {
         padding: 30px 20px;
         max-height: none;
     }
+
     .banner h2 {
         font-size: 24px;
         text-align: center;
     }
+
     .banner p {
         font-size: 14px;
         text-align: center;
     }
-    .main{
+
+    .main {
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
+
     .cardContainer {
         display: flex;
         flex-direction: column;
@@ -230,24 +265,29 @@ nav {
         align-items: center;
     }
 
-    .card{
+    .card {
         min-width: 0;
         width: 100%;
         padding: 20px;
     }
+
     .countButton {
         padding: 8px 10px;
         font-size: 14px;
     }
-    .card h5{
+
+    .card h5 {
         font-size: 14px;
     }
-    .card h1{
+
+    .card h1 {
         font-size: 16px;
     }
-    .card p{
+
+    .card p {
         font-size: 12px;
     }
+
     .historyContainer {
         min-width: unset;
         width: 100%;
